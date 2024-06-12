@@ -25,8 +25,8 @@ const AboutMe = () => {
             deliver exceptional results. I am committed to understanding your
             business needs and translating them into innovative, user-friendly
             software that drives growth and enhances customer satisfaction.
-            Partner with me, and let's transform your business with cutting-edge
-            technology and unparalleled dedication to excellence.
+            Partner with me, and let&apos;s transform your business with
+            cutting-edge technology and unparalleled dedication to excellence.
           </p>
           <div className="mt-[2rem] space-y-3">
             <div
@@ -95,7 +95,7 @@ const AboutMe = () => {
             >
               <p className="text-[50px] text-black font-bold">100+</p>
               <p className="text-[20px] text-black font-600">
-                Satistified Clients
+                Satisfied Clients
               </p>
             </div>
             <div
@@ -116,7 +116,7 @@ const AboutMe = () => {
               className="p-6 text-center bg-yellow-500"
             >
               <p className="text-[50px] text-black font-bold">2+</p>
-              <p className="text-[20px] text-black font-600">Award Won</p>
+              <p className="text-[20px] text-black font-600">Awards Won</p>
             </div>
           </div>
         </div>

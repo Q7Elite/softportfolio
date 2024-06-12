@@ -9,7 +9,7 @@ const Skills = () => {
         <div className="col col-span-3">
           <p className="heading__mini">My Skills</p>
           <h1 className="heading__primary">
-            Let's Explore Popular{" "}
+            Let&apos;s Explore Popular{" "}
             <span className="text-yellow-300">Skills</span> & Experience
           </h1>
           <p className="text-[15px] mb-[1.5rem] text-white opacity-70 mt-[1.5rem]">

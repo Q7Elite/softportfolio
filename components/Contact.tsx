@@ -50,7 +50,7 @@ const Contact = () => {
         <div data-aos="fade-up" data-aos-anchor-placement="top-center">
           <p className="heading__mini">Get in touch</p>
           <h1 className="heading__primary">
-            Let's make your <span>Brand</span> brilliant
+            Let&apos;s make your <span>Brand</span> brilliant
           </h1>
           <p className="text-[15px] text-white mt-[1rem] opacity-75">
             Feel free to contact me anytime of the day. I will be ready to serve
