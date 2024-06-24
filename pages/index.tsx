@@ -3,7 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
 import Script from "next/script";
-
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
 import NavMobile from "@/components/NavMobile";
@@ -19,7 +18,26 @@ const Reviews = lazy(() => import("@/components/Reviews"));
 const Blog = lazy(() => import("@/components/Blog"));
 const Contact = lazy(() => import("@/components/Contact"));
 
-const HomePage = () => {
+interface YouTubeEmbedProps {
+  videoId: string;
+}
+
+const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({ videoId }) => (
+  <div className="youtube-embed">
+    <iframe
+      width="560"
+      height="315"
+      src={`https://www.youtube.com/embed/${videoId}`}
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allowFullScreen
+    ></iframe>
+  </div>
+);
+
+const HomePage: React.FC = () => {
   const [showNav, setShowNav] = useState(false);
 
   const showNavHandler = useCallback(() => setShowNav(true), []);
@@ -80,6 +98,9 @@ const HomePage = () => {
             "https://www.facebook.com/bonface.karichu",
             "https://www.twitter.com/BGathura37051",
             "https://www.linkedin.com/in/karichu-gathura-624b644a/",
+            "https://www.youtube.com/channel/@bonfacegathura9282",
+            "https://www.instagram.com/karichu_gathura/?hl=en",
+            "https://www.tiktok.com/@karichubonface?lang=en",
           ],
         })}
       </Script>
@@ -94,6 +115,7 @@ const HomePage = () => {
         <Prices />
         <Reviews />
         <Blog />
+        <YouTubeEmbed videoId="xopvkx6CpNs?si=ZlcmJ8wacjhDbbCO" />
         <Contact />
       </Suspense>
       <Footer />
