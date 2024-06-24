@@ -49,11 +49,11 @@ const Hero = () => {
                 </button>
               </Link>
               <a
-                href="/resume.pdf" // Path to your CV file
+                href="/resume.docx" // Path to your CV file
                 download // The download attribute triggers the download
                 data-aos="zoom-out"
                 data-aos-delay="1600"
-                className="relative flex h-[50px] w-40 items-center justify-center font-semibold
+                className="relative flex h-[50px] w-40 items-center justify-center font-semibold pl-2 sm:pl-0
                 overflow-hidden bg-orange-500 text-white shadow-2xl transition-all before:absolute before:h-0
                 before:w-0 before:rounded-full before:bg-green-600 before:duration-500 before:ease-out hover:before:h-56
                 hover:before:w-56 rounded-sm"
