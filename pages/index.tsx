@@ -25,6 +25,7 @@ interface YouTubeEmbedProps {
 const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({ videoId }) => (
   <div className="youtube-embed">
     <iframe
+      className="mx-auto"
       width="560"
       height="315"
       src={`https://www.youtube.com/embed/${videoId}`}
