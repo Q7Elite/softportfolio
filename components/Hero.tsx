@@ -1,6 +1,6 @@
 import React from "react";
 import TypewriterEffect from "./helper/TypewriterEffect";
-import img from "../public/images/man3.jpg";
+import img from "../public/images/karichu.jpeg";
 import Image from "next/image";
 import Link from "next/link"; // Importing Link from next/link
 
