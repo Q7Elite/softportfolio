@@ -49,7 +49,7 @@ const Hero = () => {
                 </button>
               </Link>
               <a
-                href="/resume.docx" // Path to your CV file
+                href="/softtoquecv.pdf" // Path to your CV file
                 download // The download attribute triggers the download
                 data-aos="zoom-out"
                 data-aos-delay="1600"
